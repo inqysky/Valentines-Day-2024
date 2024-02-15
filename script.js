@@ -8,8 +8,8 @@ let maxLengthVariance = 0.8;
 let forwardPercentage = 0.96;
 let maxBackstep = 45;
 let previousDirectionPercentage = 0.9;
-let maxDistance = 0.2 * ((wid + hei) / 2);
-let maxPullValue = 0.25 * ((minLength + maxLength) / 2);
+let maxDistance = 0.32 * ((wid + hei) / 2);
+let maxPullValue = 0.4 * ((minLength + maxLength) / 2);
 
 let aves, inq;
 
